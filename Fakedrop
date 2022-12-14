@@ -1,0 +1,35 @@
+local kavoUi = loadstring(game:Httpget("https://pastebin.com/raw/vff1bQ9F"))()
+
+local window = kavoUi.CreateLib("Main Title","BloodTheme")
+
+--Tabs
+
+local Tab1 = window:NewTab("main")
+
+local Tab1Section = Tab1:NewSection("Main")
+
+ local Tab2 = window:NewTab("scripts")
+
+local Tab2Section = Tab1:NewSection("scripts") 
+
+--Buttons
+
+Tab1Section:NewButton("Write Name Of Script - FAKEdrop-hub","Write what it do - fakedrop")function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/0h2eAbfi"))()local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Notification%20Library/main.lua"))()
+
+notifLib:CreateDefaultNotif({
+
+  TweenSpeed = 1,
+
+  Title = "Loaded!",
+
+  Text = "This is an OP Script",
+
+  Duration = 5
+
+})
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/domdaobfuscater/09214a11b8a30bab47ceff281116195f/raw/40356a0ff4542a51283ab5de0a642233a6ceb6f9/gistfile1.txt"))()
+  end
+end)
